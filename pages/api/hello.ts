@@ -1,4 +1,6 @@
-export default (req, res) => {
+import { NextApiRequest, NextApiResponse } from 'next'
+
+export default (_: NextApiRequest, res: NextApiResponse) => {
     res.status(200).json({ song: 
     `Suburbia where the suburbs met utopia where the suburbs met utopia
     Lost in the high street, where the dogs run
